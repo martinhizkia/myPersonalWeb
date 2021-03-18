@@ -6,6 +6,7 @@ import Wrapper from "../../component/Wrapper.js";
 import hydrate from "next-mdx-remote/hydrate";
 import MDComp from "../../component/MDComp";
 import renderToString from "next-mdx-remote/render-to-string";
+import Footer from "../../component/Footer.js";
 import Head from "next/head";
 import { Heading, Text, Flex, Stack } from "@chakra-ui/react";
 
@@ -34,6 +35,7 @@ const Post = ({ source, frontMatter }) => {
           </Heading>
           <div>{content}</div>
         </Flex>
+        <Footer />
       </Stack>
     </Wrapper>
   );

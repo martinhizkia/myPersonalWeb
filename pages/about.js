@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Wrapper from "../component/Wrapper.js";
 import { MdSettings, MdCheckCircle } from "react-icons/md";
+import Footer from "../component/Footer.js";
 import {
   useColorMode,
   Heading,
@@ -122,6 +123,7 @@ export default function Index() {
 
           <SpotifyCard />
         </Flex>
+        <Footer />
       </Stack>
     </Wrapper>
   );

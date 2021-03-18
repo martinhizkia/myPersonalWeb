@@ -2,6 +2,7 @@ import Link from "next/link";
 import fs from "fs";
 import path from "path";
 import Wrapper from "../component/Wrapper.js";
+import Footer from "../component/Footer.js";
 import {
   Heading,
   Container,
@@ -47,6 +48,7 @@ const Blog = ({ posts }) => {
             );
           })}
         </div>
+        <Footer />
       </Container>
     </Wrapper>
   );
