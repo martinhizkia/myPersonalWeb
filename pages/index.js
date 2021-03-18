@@ -8,17 +8,12 @@ import {
   Flex,
   Stack,
   Divider,
-  Image,
-  Box,
-  Center,
   Table,
   Thead,
   Tbody,
-  Tfoot,
   Tr,
   Th,
   Td,
-  TableCaption,
 } from "@chakra-ui/react";
 import SpotifyCard from "../component/SpotifyCard.js";
 
