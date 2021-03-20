@@ -119,7 +119,7 @@ const SpotifyCard = () => {
 
   if (isLoading == false) {
     return (
-      <Box w="100%" p={4} borderWidth="1px" borderRadius="xs">
+      <Box w="100%" p={4} borderWidth="1px" borderRadius="md">
         <Flex>
           <Center flex="1">
             <Image
@@ -150,19 +150,10 @@ const SpotifyCard = () => {
       <Box w="100%" p={4} borderWidth="1px">
         <Flex>
           <Center flex="1">
-            <SkeletonCircle
-              size="64px"
-              startColor="pink.500"
-              endColor="orange.500"
-            />
+            <SkeletonCircle size="64px" />
           </Center>
           <Box flex="6">
-            <SkeletonText
-              noOfLines={3}
-              spacing="4"
-              startColor="pink.500"
-              endColor="orange.500"
-            />
+            <SkeletonText noOfLines={3} spacing="4" />
           </Box>
         </Flex>
       </Box>

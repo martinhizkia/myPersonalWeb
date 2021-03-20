@@ -16,6 +16,8 @@ import {
   Td,
 } from "@chakra-ui/react";
 import SpotifyCard from "../component/SpotifyCard.js";
+import WarningCard from "../component/WarningCard.js";
+import ContactMe from "../component/ContactMe.js";
 
 export default function Index() {
   const { colorMode } = useColorMode();
@@ -52,6 +54,7 @@ export default function Index() {
           </Text>
           <Divider mt={4} />
         </Flex>
+        <WarningCard />
         <Heading size="lg">This Web Tech-Stack</Heading>
         <Table size="sm">
           <Thead>
@@ -92,6 +95,7 @@ export default function Index() {
             </Tr>
           </Tbody>
         </Table>
+        <ContactMe />
         <SpotifyCard />
         <Footer />
       </Stack>
