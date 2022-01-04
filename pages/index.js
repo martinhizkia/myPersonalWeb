@@ -18,6 +18,7 @@ import {
 import SpotifyCard from "../component/SpotifyCard.js";
 import WarningCard from "../component/WarningCard.js";
 import ContactMe from "../component/ContactMe.js";
+import FinanceCard from "../component/FinanceCard.js";
 
 export default function Index() {
   const { colorMode } = useColorMode();
@@ -55,6 +56,8 @@ export default function Index() {
           <Divider mt={4} />
         </Flex>
         <WarningCard />
+
+        <FinanceCard />
         <Heading size="lg">This Web Tech-Stack</Heading>
         <Table size="sm">
           <Thead>

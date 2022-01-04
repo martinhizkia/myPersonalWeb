@@ -55,12 +55,12 @@ const WarningCard = () => {
             <Stat>
               <StatLabel>Total Confirmed</StatLabel>
               <StatNumber>
-                <CountUp end={confirmed} duration={2} separator="." />
+                <CountUp end={confirmed} duration={1} separator="." />
               </StatNumber>
               <StatHelpText>{new Date(date).toDateString()}</StatHelpText>
             </Stat>
           </Box>
-          <Box m="0 10px 0 10px" />
+          {/* <Box m="0 10px 0 10px" />
           <Box w="100%" h="50" p={3} borderWidth="1px" borderRadius="md">
             <Stat>
               <StatLabel>Total Recovered</StatLabel>
@@ -69,8 +69,8 @@ const WarningCard = () => {
               </StatNumber>
               <StatHelpText>{new Date(date).toDateString()}</StatHelpText>
             </Stat>
-          </Box>
-          <Box m="0 10px 0 10px" />
+          </Box> */}
+          {/* <Box m="0 10px 0 10px" />
           <Box w="100%" h="50" p={3} borderWidth="1px" borderRadius="md">
             <Stat>
               <StatLabel>Total Deaths</StatLabel>
@@ -79,7 +79,7 @@ const WarningCard = () => {
               </StatNumber>
               <StatHelpText>{new Date(date).toDateString()}</StatHelpText>
             </Stat>
-          </Box>
+          </Box> */}
         </Flex>
       </Container>
     </>
