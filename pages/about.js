@@ -108,15 +108,7 @@ export default function Index() {
           <List spacing={2}>
             <ListItem>
               <ListIcon as={MdCheckCircle} color="green.500" />
-              Harry Potter
-            </ListItem>
-            <ListItem>
-              <ListIcon as={MdCheckCircle} color="green.500" />
-              Chilling Adventure of Sabrina
-            </ListItem>
-            <ListItem>
-              <ListIcon as={MdCheckCircle} color="green.500" />
-              Naruto
+              Mostly any movie/film related to wizardry or witchcraft, since i wanna be an..... Auror
             </ListItem>
           </List>
           <Divider mt={4} mb={4} />
